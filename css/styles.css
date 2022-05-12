@@ -112,7 +112,7 @@ ul {
     text-align: center;
 }
 
-/* Peculiarities */l
+/* Peculiarities */
 
 .feature-title {
     color: var(--title-text-color);
@@ -186,9 +186,9 @@ ul {
 
 /* Portfolio page */
 .button.portfolio {
-font-weight: 500;
-line-height: 1.63;
-letter-spacing: 0.03em;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
 }
 
 .button.portfolio:hover,
