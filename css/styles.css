@@ -82,6 +82,21 @@ ul {
     color: var(--accent-color);
 }
 
+/* Visually-hidden */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
  /* Hero title */
  .hero-title {
     color: var(--primary-white-color);
@@ -207,6 +222,7 @@ ul {
 
 /* Portfolio page */
 .button.portfolio {
+    background-color: var(--end-bg-color);
     font-weight: 500;
     line-height: 1.63;
     letter-spacing: 0.03em;
