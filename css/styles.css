@@ -12,13 +12,14 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--medium-bg-color);
+    background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal;
+    font-weight: 400; */
     font-size: 14px;
-    line-height: 1.71;
+    /* line-height: 1.71; */
     letter-spacing: 0.03em;
+    
 }
 
 ul {
@@ -27,19 +28,22 @@ ul {
 
 /* Logo */
 .logo {
-    color: var(--accent-color)
+    color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+
 }
 .logo-accent {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 
 .logo-footer {
     color: var(--primary-white-color);
+    text-decoration: none;
 }
 
 /* Navigation */
@@ -59,7 +63,7 @@ ul {
 }
 
 .site-nav .link.current {
-    color: var(--title-text-color); 
+    color: var(--accent-color);  
 
 }
 
@@ -70,6 +74,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .auth-nav .link:hover,
@@ -90,9 +95,9 @@ ul {
 
 /* Background color section */
 
-.header {
+/* .header {
     background-color: var(--primary-white-color);
-}
+} */
 
 .section.team {
     background-color: var(--end-bg-color);
@@ -144,14 +149,17 @@ ul {
 
 .address {
     font-style: normal;
+    
 }
 
 .address-place {
     color: var(--primary-white-color);
+    
 }
 
 .address-contact {
     color: var(--secondary-whit-color);
+    
 }
 
 
