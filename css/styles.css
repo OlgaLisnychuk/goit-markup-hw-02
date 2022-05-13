@@ -122,9 +122,10 @@ ul {
 .feature-title {
     color: var(--title-text-color);
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /* Team section */
@@ -132,8 +133,9 @@ ul {
 .team-name {
     color: var(--title-text-color);
     font-style: normal;
-    font-weight: 700;
-    line-height: 1.14;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
@@ -150,16 +152,26 @@ ul {
 .address {
     font-style: normal;
     
+    
 }
 
 .address-place {
     color: var(--primary-white-color);
+    text-decoration: none;
     
 }
 
 .address-contact {
     color: var(--secondary-whit-color);
+    text-decoration: none;
     
+}
+
+.address-contact:hover,
+.address-contact:focus,
+.address-place:hover,
+.address-place:focus {
+    color: var(--accent-color);
 }
 
 
