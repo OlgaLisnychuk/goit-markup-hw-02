@@ -14,10 +14,7 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
-    /* font-style: normal;
-    font-weight: 400; */
     font-size: 14px;
-    /* line-height: 1.71; */
     letter-spacing: 0.03em;
     
 }
@@ -109,10 +106,6 @@ ul {
  }
 
 /* Background color section */
-
-/* .header {
-    background-color: var(--primary-white-color);
-} */
 
 .section.team {
     background-color: var(--end-bg-color);
