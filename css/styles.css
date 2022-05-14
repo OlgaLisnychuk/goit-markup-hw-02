@@ -107,6 +107,10 @@ ul {
 
 /* Background color section */
 
+.hero {
+    background-color: var(--futer-bg-color);
+}
+
 .section.team {
     background-color: var(--end-bg-color);
 }
