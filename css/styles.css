@@ -136,7 +136,7 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 
 /* Team section */
@@ -147,7 +147,6 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-transform: uppercase;
     text-align: center;
 }
 .team-text {
@@ -191,7 +190,6 @@ ul {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -199,7 +197,6 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    text-decoration: none;
     cursor: pointer;
 }
 
